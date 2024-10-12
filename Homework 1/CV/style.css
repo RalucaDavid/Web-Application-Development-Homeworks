@@ -1,0 +1,147 @@
+
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 20px; 
+    display: flex; 
+    justify-content: center; 
+}
+
+.cvWrapper{
+    max-width: 800px; 
+    background-color: #ffffff; 
+    padding: 30px; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+}
+
+
+/* Personal information section */
+.image{
+    border-radius: 50%; 
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+    border: 5px solid green;
+}
+
+.personalInfoWrapper{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    font-size: 20px;
+    color: #2f3e46;
+    margin-bottom: 30px;
+}
+
+.location, .email, .github, .linkedin{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 17px;
+}
+
+.locationName{
+    margin: 0px;
+}
+
+.icon{
+    color:green;
+}
+
+/* Title Section */
+.titleSection{
+    color: #2f3e46;
+    font-size: 20px;
+    padding-right: 10px;
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    margin: 10px 0px 10px 0px; 
+    width: 100%;
+}
+
+.titleSection::after {
+    content: "";
+    display: block;
+    width: 100%; 
+    height: 2px;
+    background-color: green; 
+    position: absolute;
+    top: 100%; 
+    left: 0;
+    transform: translateY(10px);
+}
+
+/* About me section */
+.aboutMeText{
+    font-size: 17px;
+}
+
+/* Work experience section */
+.introduction{
+    margin: 10px 0px 0px 0px;
+}
+
+/* Work experience section and education section*/
+.info{
+    margin: 0px;
+}
+
+.titlePosition{
+    margin: 15px 0px 5px 0px;
+}
+
+.listActivities{
+    margin-top: 10px;
+}
+
+/* Digital skills section */
+.skills-list {
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.skills-list li {
+    background-color: #dddddd;  
+    padding: 10px 15px; 
+    margin: 5px; 
+    border-radius: 5px; 
+    transition: transform 0.2s; 
+}
+
+.titleDigitalSkill{
+    margin-bottom: 0px;
+}
+
+/* Personal projects section */
+.projectDescription{
+    margin: 5px 0px 5px 0px;
+}
+
+.projectTitle{
+    margin-bottom: 5px;
+}
+
+/* Language skills section */
+
+table{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+td, th{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){
+    background-color: #dddddd;
+}
