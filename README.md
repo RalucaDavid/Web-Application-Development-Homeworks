@@ -1,2 +1,3 @@
-# Web-Application-Development-Homeworks
-The homeworks from Web Application Development subject.
+The homeworks from the Web Application Development subject are the following:
+
+- **Homework 1:** HTML and exercise 1
