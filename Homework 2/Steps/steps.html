@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Step 2 -->
+    <style>
+        body {
+            background-color: powderblue;
+        }
+
+        h1 {
+            color: blue;
+
+            /* Step 4 */
+            font-family: verdana;
+            font-size: 300%;
+        }
+
+        p {
+            color: red;
+
+            /* Step 4 */
+            font-family: courier;
+            font-size: 160%;
+
+            /* Step 5 */
+            border: 1px solid black;
+
+            /* Step 6 */
+            padding: 30px;
+
+            /* Step 7 */
+            margin: 50px;
+        }
+
+        /* Step 8 */
+        #p01{
+            color: blue;
+        }
+
+        /* Step 9 */
+        p.error{
+            color: red;
+        }
+
+        /* Step 10 */
+        /* unvisited link */
+        a:link{
+            color: red;
+        }
+
+        /* visited link */
+        a:visited{
+            color:green;
+        }
+
+        /* mouse over link */
+        a:hover{
+            color:hotpink;
+        }
+
+        /* selected link */
+        a:active{
+            color: blue;
+        }
+    </style>
+
+    <!-- Step 3 -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Step 1 -->
+    <h1 style="color:blue">This is a Blue Heading.</h1>
+
+    <!-- Step 2 -->
+    <h1>This is a heading.</h1>
+    <p>This is a paragraph.</p>
+
+    <!-- Step 3 -->
+    <h1>This is a heading.</h1>
+    <p>This is a paragraph.</p>
+
+    <!-- Step 4 -->
+    <h1>Romania</h1>
+    <p>Brasov</p>
+
+    <!-- Step 5 -->
+    <h1>This is a heading.</h1>
+
+    <p>This is a paragraph.</p>
+    <p>This is a paragraph.</p>
+    <p>This is a paragraph.</p>
+
+    <!-- Step 6 -->
+    <h1>This is a heading.</h1>
+
+    <p>This is a paragraph.</p>
+    <p>This is a paragraph.</p>
+    <p>This is a paragraph.</p>
+
+    <!-- Step 7 -->
+    <h1>This is a heading.</h1>
+
+    <p>This is a paragraph.</p>
+    <p>This is a paragraph.</p>
+    <p>This is a paragraph.</p>
+
+    <!-- Step 8 -->
+    <p>This is a paragraph.</p>
+    <p>This is a paragraph.</p>
+    <p id="p01">I am different.</p>
+
+    <!-- Step 9 -->
+    <p>This is a paragraph.</p>
+    <p>This is a paragraph.</p>
+    <p class="error">I am different.</p>
+    <p>This is a paragraph.</p>
+    <p class="error">I am different too.</p>
+
+    <p>
+        <b>
+            <a href="https://www.sport.ro" target="_blank">
+              This is a link  
+            </a>
+        </b>
+    </p>
+    <p>
+        <b>Note:</b> a:hover MUST come after a:link and a:visited in the CSS definition in order to be effective.
+    </p>
+    <p>
+        <b>Note:</b> a:active MUST come after a:hover in the CSS definition in order to be effective.
+    </p>
+</body>
+
+</html>
